@@ -98,7 +98,8 @@ namespace DuplicateFinderEngine
             
 			foreach (var s in pSource) 
             {
-				try {
+				try 
+                {
 					var name = Path.GetFileNameWithoutExtension(s);
 					var ext = Path.GetExtension(s);
 					var temppath = Path.Combine(pDest, name + ext);
