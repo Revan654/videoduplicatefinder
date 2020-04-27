@@ -4,18 +4,14 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <Platforms>x64</Platforms>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <NoWarn>1701;1702;NU1701;NU1605</NoWarn>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>icon.ico</ApplicationIcon>
-    <SignAssembly>false</SignAssembly>
-    <Platforms>AnyCPU</Platforms>
     <AssemblyName>VideoDuplicateFinderWindows</AssemblyName>
     <StartupObject>VideoDuplicateFinderWindows.Startup</StartupObject>
-    <NullableContextOptions>enable</NullableContextOptions>
-    <LangVersion>preview</LangVersion>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
